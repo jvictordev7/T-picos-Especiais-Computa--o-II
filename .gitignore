@@ -1,0 +1,41 @@
+# Ambiente virtual
+.venv/
+
+# Modelos e arquivos grandes (não versionar binários pesados)
+keras_model.h5
+converted_keras.zip
+
+# Arquivos de rótulos/exportação (se você preferir mantê-los fora do repo)
+labels.txt
+
+# Vídeos e dados brutos (não enviar vídeos de demonstração nem grandes datasets)
+# Exemplo: meu_teste.mp4 ou qualquer .mp4/.mov grande
+*.mp4
+*.mov
+*.avi
+
+# Pasta de dados local (se usar capture_images.py)
+data/
+
+# Capturas e screenshots geradas pelo script
+screenshot_*.png
+
+# Arquivos do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VSCode
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Logs
+*.log
+
